@@ -21,10 +21,20 @@ a:hover {color: rgb(22, 7, 7);}
     border-radius: 4px;
 }
 
-/* Mobile */
+/* Responsive */
+@media (max-width: 1200px){
+    /*  */
+}
+@media (max-width: 992px){
+    .text-center-md{text-align: center;}
+}
+@media (max-width: 768px){
+    .text-center-sm{text-align: center;}
+}
 @media (max-width: 576px){
     .container .grid, .container-full .grid { margin-right: 0; margin-left: 0; }
     .container, .container-full{padding-left: 3px; padding-right: 3px;}
+    .text-center-xs{text-align: center;}
     article h1{font-size: 16px; margin-block-start: 8px; margin-block-end: 8px;}
     p{font-size: 13px;}
 }

@@ -1,0 +1,29 @@
+.nav-menu {
+    display: flex;
+    padding: 12px;
+}
+.nav-menu a{
+    margin-right: 24px;
+}
+.active{
+    color: rgb(23, 180, 120);
+}
+.nav-burger{
+    display: none;
+}
+
+@media (max-width: 768px){
+    .nav-burger{
+        display: flex;
+    }
+    .nav-menu{
+        display: flex;
+        flex-flow: column;
+        display: none;
+    }
+    .nav-menu a{
+        margin: 10px 0;
+        width: 100%;
+    }
+}
+

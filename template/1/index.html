@@ -6,18 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" href="/reflex.min.css">
     <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="style1.css">
 </head>
 
 <body>
-    <div class="container-full justify-center">
-        <nav class="grid">
-            <a class="col-auto" href="#">Home</a>
-            <a class="col-auto" href="#">Latest News</a>
-            <a class="col-auto" href="#">About</a>
-        </nav>
+    <div class="container-full">
+        <div class="grid">
+            <div class="col-5 col-sm-3">
+                <h3>COMPANY</h3>
+            </div>
+            <div class="col-7 nav-burger flex align-center justify-end">
+                <a href="javascript:void(0)" class="burger">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#fff" stroke="currentColor" stroke-width="2"><line fill="#fff" x1="3" y1="12" x2="21" y2="12"></line><line fill="#fff" x1="3" y1="6" x2="21" y2="6"></line><line fill="#fff" x1="3" y1="18" x2="21" y2="18"></line></svg>
+                </a>
+            </div>
+            <nav class="col-xs-12 col-sm-9 nav-menu align-center justify-end">
+                <a href="#" class="active">Home</a>
+                <a href="#">Latest News</a>
+                <a href="#">About</a>
+                <a href="#">Breaking News</a>
+                <a href="#">EDITORIAL</a>
+            </nav>
+        </div>
     </div>
     <div class="container text-center-xs">
-        <h1>Breaking News</h1>
+        <h1>Latest News</h1>
         <div class="grid">
             <article class="col-xs-12 col-sm-6 col-md-4">
                 <div class="flex-footer">

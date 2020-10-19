@@ -3,7 +3,9 @@
 
 <head>
     <title>1</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/reflex.min.css">
     <link rel="stylesheet" href="/style.css">
     <link rel="stylesheet" href="style1.css">
@@ -29,8 +31,8 @@
             </nav>
         </div>
     </div>
-    <div class="container text-center-xs">
-        <h1>Latest News</h1>
+    <div class="container">
+        <h1 class="text-center-xs">Latest News</h1>
         <div class="grid">
             <article class="col-xs-12 col-sm-6 col-md-4">
                 <div class="flex-footer">
@@ -90,5 +92,11 @@
         </div>
     </div>
 </body>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+<script>
+    $(".burger").click(function () {
+        $(".nav-menu").slideToggle(100);
+        $(".nav-menu").css( "display", "flex");
+    });
+</script>
 </html>
